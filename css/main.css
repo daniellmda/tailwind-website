@@ -1,0 +1,19 @@
+body  {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+}
+div {
+    padding-top: 20%;
+}
+h1, h2 {
+    text-align: center;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+h1:hover , h2:hover {
+    width: 100%;
+    transform: scale(1.2);
+}
