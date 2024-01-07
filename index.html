@@ -6,9 +6,10 @@
     <title>Event</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
 </head>
 <body class="bg-slate-900 text-white tracking-wider">
-    <header>
+    <header class="sticky top-0 z-50">
         <nav class="container flex justify-between items-center">
             <div class=" py-5 text-color-blob font-bold text-3xl">
                 <a href="">
@@ -19,8 +20,8 @@
                 <ul class="hidden lg:flex items-center space-x-6">
                     <li><a href="#home" class="hover:text-color-blob ease-in duration-200">Home</a></li>
                     <li><a href="#about" class="hover:text-color-blob ease-in duration-200">About</a></li>
-                    <li><a href="#speakers" class="hover:text-color-blob ease-in duration-200">Speakers</a></li>
                     <li><a href="#schedule" class="hover:text-color-blob ease-in duration-200">Schedule</a></li>
+                    <li><a href="#speakers" class="hover:text-color-blob ease-in duration-200">Speakers</a></li>
                     <li><a href="#partners" class="hover:text-color-blob ease-in duration-200">Partners</a></li>
                     <li><a href="#contact" class="hover:text-color-blob ease-in duration-200">Contact</a></li>
 
@@ -35,8 +36,8 @@
                 <ul class="h-full grid place-items-center py-20">
                     <li><a id="hLink" href="#home" class="hover:text-color-blob ease-in duration-200">Home</a></li>
                     <li><a id="hLink" href="#about" class="hover:text-color-blob ease-in duration-200">About</a></li>
-                    <li><a id="hLink" href="#speakers" class="hover:text-color-blob ease-in duration-200">Speakers</a></li>
                     <li><a id="hLink" href="#schedule" class="hover:text-color-blob ease-in duration-200">Schedule</a></li>
+                    <li><a id="hLink" href="#speakers" class="hover:text-color-blob ease-in duration-200">Speakers</a></li>
                     <li><a id="hLink" href="#partners" class="hover:text-color-blob ease-in duration-200">Partners</a></li>
                     <li><a id="hLink" href="#contact" class="hover:text-color-blob ease-in duration-200">Contact</a></li>
 
@@ -122,21 +123,21 @@
                 </div>
                 <div class="flex flex-col items-center justify-between space-y-6 md:flex-row md:space-y-0 md:space-x-6">
                     <div class="text-center cursor-pointer">
-                        <div class="relative bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200">
+                        <div class="relative bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-blob ease-in duration-200">
                             <p class="text-6xl lg:after:content-[''] lg:after:flex lg:after:bg-[url('/img/line.png')] lg:after:absolute lg:after:top-4 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52">1</p>
                         </div>
                         <h3 class="text-xl font-bold py-4">Preparing for the main event</h3>
                         <p class="leading-relaxed">From 8 a.m. to 10 a.m. there will be a tea party and communication with all participants and speakers, you will be able to view the stands of companies and walk around the premises. You will also be able to analyze the offers of IT companies.</p>
                     </div>
                     <div class="text-center cursor-pointer">
-                        <div class="relative inline-block px-6 py-3 rounded-lg cursor-pointer bg-color-secondary">
+                        <div class="relative inline-block px-6 py-3 rounded-lg cursor-pointer bg-color-blob">
                             <p class="text-6xl lg:after:content-[''] lg:after:flex lg:after:bg-[url('/img/line-bottom.png')] lg:after:absolute lg:after:top-10 lg:after:left-32 2xl:after:left-52 lg:after:bg-no-repeat lg:after:h-7 lg:after:w-52">2</p>
                         </div>
                         <h3 class="text-xl font-bold py-4">Main topics of conference</h3>
                         <p class="leading-relaxed">From 10 a.m. to 6 p.m., we will listen to speakers and explore different programming industries such as Frontend, Backend and QA. We'll explore programming languages, architectures, and tools that underpin the robust functionality of applications.</p>
                     </div>
                     <div class="text-center cursor-pointer">
-                        <div class="relative bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-secondary ease-in duration-200">
+                        <div class="relative bg-color-primary-dark inline-block px-6 py-3 rounded-lg cursor-pointer hover:bg-color-blob ease-in duration-200">
                             <p class="text-6xl">3</p>
                         </div>
                         <h3 class="text-xl font-bold py-4">Afterparty</h3>
@@ -202,23 +203,23 @@
                     <h1 class="title">Who are our partners?</h1>
 
                     <div class="flex flex-col md:flex-row items-center justify-center gap-5 pt-10">
-                        <a href="" class="bg-color-white h-24 w-48 grid place-items-center rounded-lg hover:opacity-70">
+                        <a href="" class="bg-color-blob h-24 w-48 grid place-items-center rounded-lg hover:opacity-70">
                             <img src="./img/MSI-Logo.png" alt="" class="h-20 w-20 p-1 m-3">
                             
                         </a>
-                        <a href="" class="bg-color-white h-24 w-48  grid place-items-center rounded-lg hover:opacity-70">
+                        <a href="" class="bg-color-blob h-24 w-48  grid place-items-center rounded-lg hover:opacity-70">
                             <img src="./img/AMD_Logo.svg.png" alt="" class="h-20 w-20 p-1 m-3">
                             
                         </a>
-                        <a href="" class="bg-color-white h-24 w-48  grid place-items-center rounded-lg hover:opacity-70 ">
+                        <a href="" class="bg-color-blob h-24 w-48  grid place-items-center rounded-lg hover:opacity-70 ">
                             <img src="./img/Intel_logo_2023.svg.png" alt="" class="h-20 w-20 p-1 m-3">
                             
                         </a>
-                        <a href="" class="bg-color-white h-24 w-48  grid place-items-center rounded-lg hover:opacity-70">
+                        <a href="" class="bg-color-blob h-24 w-48  grid place-items-center rounded-lg hover:opacity-70">
                             <img src="./img/Kaufland_Logo.svg.png" alt="" class="h-20 w-20 p-1 m-3">
                             
                         </a>
-                        <a href="" class="bg-color-white h-24 w-48  grid place-items-center rounded-lg hover:opacity-70">
+                        <a href="" class="bg-color-blob h-24 w-48  grid place-items-center rounded-lg hover:opacity-70">
                             <img src="./img/2560px-Nvidia_logo.svg.png" alt="" class="h-20 w-20 p-1 m-3 ">
                             
                         </a>
@@ -230,13 +231,105 @@
 
         <section id="contact" class="bg-color-primary-dark">
             <div class="container py-20">
-                asdas
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h4 class="font-bold text-color-secondary mb-4">Have a question</h4>
+                    <h1 class="title">Get in touch</h1>
+                </div>
+                <form action="">
+                    <div class="w-full m-auto text-center md:w-2/3">
+                        <div class="text-color-primary-light grid gap-6 mb-6 md:grid-cols-2">
+                            <input type="text" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary" placeholder="Name">
+                            <input type="email" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary" placeholder="Email">
+                            <input type="tel" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary" placeholder="Phone">
+                            <input type="text" class="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary" placeholder="Company/Institution">
+                        </div>
+
+                        
+                        <textarea name="" id="" rows="4" class=" text-color-primary-dark bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-3 focus:outline-none focus:border-color-secondary" placeholder="Message"></textarea>
+                        <button class="btn mt-10">Send Message</button>
+                    </div>
+                </form>
             </div>
 
+        </section>
+
+        <section id="footer">
+            <div class="bg-color-primary-light relative">
+                <div class="container py-10">
+                    <div class="grid gap-10 md:grid-cols-3 pb-10">
+                        <div class="space-y-6">
+                            <h4 class="font-bold text-lg">About event</h4>
+                            <p class="leading-relaxed">This should be the most ever better even that you will see in your life. We promise you will have a very impressive emotions.</p>
+                            <div class="flex gap-5 items-center">
+                                <p>Follow us</p>
+                                <i class="fa-brands fa-facebook cursor-pointer hover:text-color-secondary"></i>
+                                <i class="fa-brands fa-linkedin cursor-pointer hover:text-color-secondary"></i>
+                                <i class="fa-brands fa-x cursor-pointer hover:text-color-secondary"></i>
+                                <i class="fa-brands fa-instagram cursor-pointer hover:text-color-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="flex justify-between md:justify-around">
+                            <div class="space-y-6">
+                                <h4 class="font-bold text-lg">Quick links</h4>
+                                <ul class="space-y-3">
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#home">Home</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#about">About</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#schedule">Schedule</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#speakers">Speakers</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#partners">Partners</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="space-y-6">
+                                <h4 class="font-bold text-lg">Help</h4>
+                                <ul class="space-y-3">
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="">FAQ</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Career</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Reviews</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Terms & Conditions</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Help</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="">Location</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="space-y-6">
+                            <h4 class="font-bold text-lg">Newsletter</h4>
+                            <p class="leading-relaxed">Subscribe with email to our newsletters to be in a trend with our last updates.</p>
+                            <div class="flex items-center">
+                                <input type="email" class="w-3/4 text-color-gray bg-color-white p-2 lg:p-3 rounded-l-md focus:outline-none" placeholder="Email">
+                                
+                                <button type="submit" class="bg-color-blob px-4 py-2 lg:px-5 lg:py-3 rounded-r-md hover:opacity-90">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center pt-10 border-t border-color-gray">
+                        <p>2024 &copy; Turcanu Daniel. All Rights Reserved.</p>
+
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <script>
+
+        const navbar = document.querySelector('header');
+
+        window.onscroll = () => {
+            if(window.scrollY > 100) {
+                navbar.classList.add('bg-color-primary-dark')
+                navbar.classList.add('border-b')
+                navbar.classList.add('border-color-gray')
+            } else {
+                navbar.classList.remove('bg-color-primary-dark')
+                navbar.classList.remove('border-b')
+                navbar.classList.remove('border-color-gray')
+            }
+        }
         // Mobile menu
         const hamburger = document.querySelector('#hamburger');
         const menu = document.querySelector('#menu');

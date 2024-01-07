@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
 .btn {
     @apply bg-color-blob px-9 py-3 rounded-md capitalize font-bold hover:opacity-80 ease-in duration-200;
 }
